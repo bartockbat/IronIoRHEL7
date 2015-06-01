@@ -1,0 +1,15 @@
+
+{
+  "description": "Config file for single tenant IronMQ.",
+  "api": {
+    "http_port": 8080
+  },
+  "aes_key": "C0AECA893AEAE6CBFDF19F3B3EE044D4",
+  "data": {
+    "dir": "../data",
+    "cache_size": 128
+  },
+  "logging": {
+    "level": "info"
+  }
+}
