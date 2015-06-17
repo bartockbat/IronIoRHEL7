@@ -1,4 +1,10 @@
 FROM registry.access.redhat.com/rhel7 
+
+LABEL Name iron/rhel7-ironmq:lite
+LABEL Release lite 0.1 
+LABEL Vendor iron.io
+LABEL Version Ironmq Lite
+
 MAINTAINER iron.io
 
 ADD ironmq                  /ironmq/ironmq/ironmq
