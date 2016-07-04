@@ -5,6 +5,9 @@ LABEL Release lite 0.1
 LABEL Vendor iron.io
 LABEL Version Ironmq Lite
 
+#Atomic labels
+LABEL RUN /usr/bin/docker run -d IMAGE
+
 MAINTAINER iron.io
 
 ADD ironmq                  /ironmq/ironmq/ironmq
